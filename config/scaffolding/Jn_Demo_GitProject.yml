@@ -1,0 +1,9 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: Jn_Demo_GitProject
+  gitServerName: jn_demo
+  gitUrl: https://github.com/joenightingale
+  gitUsername: joenightingale
+  gitBranch: main
