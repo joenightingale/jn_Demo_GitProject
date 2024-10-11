@@ -7,3 +7,12 @@ packages:
   gitUrl: https://github.com/joenightingale
   gitUsername: joenightingale
   gitBranch: main
+services:
+- serviceName: project.jn_demo_git.integrations:remoteEdgeInvocactionTest
+  packages:
+  - name: Jn_Demo_GitProject
+    version: "1.0"
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.1969
